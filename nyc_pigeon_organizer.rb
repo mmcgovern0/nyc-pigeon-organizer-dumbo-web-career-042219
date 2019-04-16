@@ -5,7 +5,8 @@ def nyc_pigeon_organizer(data)
       pigeons.each do |pigeon|
         pigeon_list[pigeon] = {}
         pigeon_list[pigeon][color] = []
-        pigeon_list[pigeon][color] << location.to_s
+        pigeon_list[pigeon][color] << color.to_s
+        pigeon_list[pigeon][gender]
       end
     end
   end
